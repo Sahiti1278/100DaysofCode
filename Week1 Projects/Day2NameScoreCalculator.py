@@ -12,7 +12,7 @@ for i in name3:
         count2+=1
 score=str(count1)+str(count2)
 #print(score)
-if (int(score)<10 and int(score)>90):
+if (int(score)<10 or int(score)>90):
     print("Your score is " +(score)+", you go together like coke and mentos.")
 elif (int(score)>=40 and int(score)<=50):
     print("Your score is " +(score)+", you are alright together.")
